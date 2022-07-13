@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rdes.urbetrack_sw">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="urbetrack_sw"
         android:name="${applicationName}"
